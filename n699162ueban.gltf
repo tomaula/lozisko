@@ -1,0 +1,235 @@
+{
+    "asset": {
+        "version": "1.0",
+        "generator": "Open Asset Import Library (assimp v4.1.0)"
+    },
+    "accessors": {
+        "mesh_accessor": {
+            "bufferView": "mesh_view",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 65535,
+            "type": "VEC3",
+            "max": [
+                12.0,
+                18.5,
+                18.5
+            ],
+            "min": [
+                -2.886580075783644e-15,
+                -18.5,
+                -18.5
+            ]
+        },
+        "mesh_accessor_0": {
+            "bufferView": "mesh_view_0",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 65535,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                0.9987955093383789,
+                0.9987955093383789
+            ],
+            "min": [
+                -1.0,
+                -0.9987955093383789,
+                -0.9987955093383789
+            ]
+        },
+        "mesh_accessor_1": {
+            "bufferView": "mesh_view_1",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 97437,
+            "type": "SCALAR",
+            "max": [
+                65534.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        "mesh_0_accessor": {
+            "bufferView": "mesh_0_view",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 28163,
+            "type": "VEC3",
+            "max": [
+                12.0,
+                12.412060737609864,
+                16.0
+            ],
+            "min": [
+                -3.774757860209059e-15,
+                -10.0,
+                -10.0
+            ]
+        },
+        "mesh_0_accessor_0": {
+            "bufferView": "mesh_0_view_0",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 28163,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                0.9987955093383789,
+                0.9987955093383789
+            ],
+            "min": [
+                -1.0,
+                -0.9987955093383789,
+                -0.9987955093383789
+            ]
+        },
+        "mesh_0_accessor_1": {
+            "bufferView": "mesh_0_view_1",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 42339,
+            "type": "SCALAR",
+            "max": [
+                28162.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    },
+    "buffers": {
+        "../../download/n699162ueban/n699162ueban": {
+            "byteLength": 2528306,
+            "type": "arraybuffer",
+            "uri": "../../download/n699162ueban/n699162ueban.bin"
+        }
+    },
+    "bufferViews": {
+        "mesh_view": {
+            "buffer": "../../download/n699162ueban/n699162ueban",
+            "byteOffset": 0,
+            "byteLength": 786420,
+            "target": 34962
+        },
+        "mesh_view_0": {
+            "buffer": "../../download/n699162ueban/n699162ueban",
+            "byteOffset": 786420,
+            "byteLength": 786420,
+            "target": 34962
+        },
+        "mesh_view_1": {
+            "buffer": "../../download/n699162ueban/n699162ueban",
+            "byteOffset": 1572840,
+            "byteLength": 194874,
+            "target": 34963
+        },
+        "mesh_0_view": {
+            "buffer": "../../download/n699162ueban/n699162ueban",
+            "byteOffset": 1767716,
+            "byteLength": 337956,
+            "target": 34962
+        },
+        "mesh_0_view_0": {
+            "buffer": "../../download/n699162ueban/n699162ueban",
+            "byteOffset": 2105672,
+            "byteLength": 337956,
+            "target": 34962
+        },
+        "mesh_0_view_1": {
+            "buffer": "../../download/n699162ueban/n699162ueban",
+            "byteOffset": 2443628,
+            "byteLength": 84678,
+            "target": 34963
+        }
+    },
+    "materials": {
+        "DefaultMaterial": {
+            "values": {
+                "ambient": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "diffuse": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "specular": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "emission": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shininess": 0.0
+            }
+        }
+    },
+    "meshes": {
+        "mesh": {
+            "name": "",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": "DefaultMaterial",
+                    "indices": "mesh_accessor_1",
+                    "attributes": {
+                        "POSITION": "mesh_accessor",
+                        "NORMAL": "mesh_accessor_0"
+                    }
+                }
+            ]
+        },
+        "mesh_0": {
+            "name": "",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": "DefaultMaterial",
+                    "indices": "mesh_0_accessor_1",
+                    "attributes": {
+                        "POSITION": "mesh_0_accessor",
+                        "NORMAL": "mesh_0_accessor_0"
+                    }
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "node": {
+            "children": [
+                "lozisko"
+            ]
+        },
+        "lozisko": {
+            "meshes": [
+                "mesh",
+                "mesh_0"
+            ]
+        }
+    },
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "node"
+            ]
+        }
+    },
+    "scene": "defaultScene"
+}
